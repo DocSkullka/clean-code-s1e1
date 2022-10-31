@@ -5,6 +5,7 @@ body
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .moreDetails
 {
     width: 500px;
@@ -12,10 +13,12 @@ body
     display: block;
     text-align: right;
 }
+
 .moreDetails img
 {
     width: 100%;
 }
+
 .moreDetails .moreInfo
 {
     font-family: fantasy, cursive;
@@ -23,30 +26,37 @@ body
 
 @media (max-width:768px)
 {
-.moreDetails { text-align: center;
+.moreDetails 
+{
+    text-align: center;
 }
 }
+
 .mainContent
 {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
+
 .task
 {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
+
 .taskRowWrapper
 {
     display: flex;
 }
+
 ul
 {
     margin: 0;
     padding: 0px;
 }
+
 button
 {
     outline: none;
@@ -58,10 +68,12 @@ button
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 button:hover
 {
     color: #3a3A3a;
 }
+
 /* Heading */
 .testLine
 {
@@ -73,6 +85,7 @@ button:hover
     margin: 0;
     text-transform: uppercase;
 }
+
 input[type="text"]
 {
     margin: 0;
@@ -87,6 +100,7 @@ input[type="text"]
     color: #888;
     width: 226px;
 }
+
 input[type="text"]:focus
 {
     color: #333;
@@ -98,6 +112,7 @@ input[type="text"]:focus
     display: block;
     margin: 0 0 20px;
 }
+
 #newTask input
 {
     width: 318px;
@@ -114,6 +129,7 @@ li
     justify-content: space-between;
     align-items: center;
 }
+
 li > *
 {
     vertical-align: middle;
@@ -123,6 +139,7 @@ input[type="checkbox"]
 {
     margin: 0 10px;
 }
+
 .task
 {
     padding-left: 10px;
@@ -130,16 +147,19 @@ input[type="checkbox"]
     font-size: 18px;
     width: 226px;
 }
+
 li >    input[type="text"]
 {
     width: 226px
 }
+
 button.delete img
 {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 button.delete img:hover
 {
     transform: rotateZ(0);
