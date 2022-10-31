@@ -19,7 +19,8 @@ body
     width: 100%;
 }
 
-.moreDetails .moreInfo
+.moreDetails
+.moreInfo
 {
     font-family: fantasy, cursive;
 }
@@ -113,7 +114,8 @@ input[type="text"]:focus
     margin: 0 0 20px;
 }
 
-#newTask input
+#newTask
+input
 {
     width: 318px;
 }
@@ -153,38 +155,45 @@ li >    input[type="text"]
     width: 226px;
 }
 
-button.delete img
+button.delete
+img
 {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.delete img:hover
+button.delete
+img:hover
 {
     transform: rotateZ(0);
 }
 
 /* Completed */
-#completedTasks label 
+#completedTasks
+label 
 {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text]
+ul
+li
+input[type=text]
 {
     display: none;
 }
 
-.editMode input[type="text"]
+.editMode
+input[type="text"]
 {
     display: inline-block;
     width: 224px;
 }
 
-.editMode label
+.editMode
+label
 {
     display: none;
 }
